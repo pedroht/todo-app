@@ -1,0 +1,22 @@
+POST http://localhost:8080/users
+content-type: application/json
+
+{
+  "username": "pedroht",
+  "name": "Pedro Henrique",
+  "password": "1234"
+}
+
+###
+
+POST http://localhost:8080/tasks
+content-type: application/json
+
+{
+  "title": "Este título deve salvar.",
+  "description": "Essa é a descrição da tarefa",
+  "startAt": "2026-03-09T17:50:23",
+  "endAt": "2026-03-09T17:50:23",
+  "userId": "19f37082-25a6-4e6c-9f14-6deec63a78a4",
+  "priority": "HIGH"
+}
