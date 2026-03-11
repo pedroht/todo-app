@@ -25,3 +25,14 @@ Authorization: Basic pedroht:1234
 
 GET http://localhost:8080/tasks
 Authorization: Basic pedroht:1234
+
+###
+
+PUT http://localhost:8080/tasks/{id}
+content-type: application/json
+Authorization: Basic pedroht:1234
+
+{
+  "title": "Este título deve ser atualizado.",
+  "priority": "NORMAL"
+}
